@@ -16,6 +16,7 @@ public class Confide extends StatusMove {
         super.applyOppEffects(p);
 
         Effect lowerspAtt = new Effect().stat(Stat.SPECIAL_ATTACK, -1);
+        p.addEffect(lowerspAtt);
 
     }
 

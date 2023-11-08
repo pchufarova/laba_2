@@ -16,6 +16,7 @@ public class MudShot extends SpecialMove {
         super.applyOppEffects(p);
 
         Effect lowerspeed = new Effect().stat(Stat.SPEED, -1);
+        p.addEffect(lowerspeed);
 
     }
 
